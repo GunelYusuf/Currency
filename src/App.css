@@ -1,0 +1,40 @@
+.App {
+  margin-top: 15%;
+}
+.containers-padding {
+  background-color: #f1f2f8;
+  padding: 50px 20px 30px;
+  border: 1px solid #f1f2f8;
+  border-radius: 6px;
+  position: relative;
+}
+.box-texts{
+  position: absolute;
+  font-family: iaz-regular,sans-serif;
+  font-weight: 600;
+  line-height: 12px;
+  width: 80%;
+  top: 15px;
+  left: 80px;
+}
+.form-control{
+  padding: -0.625rem .75rem!important;
+  font-size: 2rem!important;
+}
+.containers-padding .currency-flag-usd , .currency-flag-eur  , .currency-flag-uah{
+  background: url(flags.png);
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 2px;
+  display: block;
+}
+.currency-flag-usd{
+  background-position: -200px -350px!important;
+}
+.currency-flag-uah{
+  background-position: -200px -300px!important;
+}
+.currency-flag-eur{
+  background-position: -50px -150px!important;
+}
